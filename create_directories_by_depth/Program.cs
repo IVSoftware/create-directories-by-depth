@@ -18,7 +18,7 @@ namespace create_directories_by_depth
                 "create_directories_by_depth"
             );
 
-            // Group directories by depth
+            // Making sure the list of directories (whatever the source) is sorted by depth
             var directoryLevels = 
                 Directory
                 .GetDirectories(source, String.Empty, SearchOption.AllDirectories)
