@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="A\B\D\G\" />
     <Folder Include="A\B\E\" />
-    <Folder Include="A\C\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,7 +17,7 @@
     <None Update="A\B\E\copy-me.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="A\C\copy-me.txt">
+    <None Update="A\C\F\copy-me.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
